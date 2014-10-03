@@ -26,7 +26,7 @@
     "author": "Jordi Ballester (Eficent)",
     "website": "http://www.eficent.com",
     "category": "Generic Modules/Projects & Services",
-    "depends": ["project","crm", "google_calendar"],
+    "depends": ["project","crm"],
     "description": """
         - This module helps you better manage the meetings related to your projects.         
         - The 'Meetings' tab in the project  form, and a link to meetings view helps you to create new meetings from the project, and 
@@ -36,7 +36,6 @@
     "init_xml": [
                 ],
     "update_xml": [
-        "security/ir.model.access.csv",
         "security/project_communications_meetings_security.xml",
         "project_communications_meetings_view.xml",     
         "project_view.xml",   

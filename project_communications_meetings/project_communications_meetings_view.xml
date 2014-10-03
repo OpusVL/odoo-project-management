@@ -19,10 +19,10 @@
     <record model="ir.ui.view" id="crm_case_form_view_meet_avg">
         <field name="name">CRM - Meetings Form</field>
         <field name="model">calendar.event</field>
-		<field name="inherit_id" ref="crm.view_crm_meeting_form" />        
+		<field name="inherit_id" ref="calendar.view_calendar_event_form" />        
         <field name="type">form</field>
         <field name="arch" type="xml">
-        	<field name="categ_id" position="after">
+        	<field name="location" position="after">
         		<field name="project_id"/>
         	</field>
         </field>
@@ -36,7 +36,7 @@
         <field name="type">search</field>
         <field name="inherit_id" ref="calendar.view_calendar_event_search" />
         <field name="arch" type="xml">
-        	<field name="categ_id" position="after">
+        	<field name="categ_ids" position="after">
         		<field name="project_id" select="2"/>
         	</field>
         </field>

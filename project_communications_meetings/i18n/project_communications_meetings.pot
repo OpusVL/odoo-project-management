@@ -21,7 +21,6 @@ msgid "Meeting Categories"
 msgstr ""
 
 #. module: project_communications_meetings
-#: model:ir.actions.act_window,name:project_communications_meetings.act_project_2_meeting
 #: model:ir.ui.menu,name:project_communications_meetings.menu_project_meeting
 #: model:ir.ui.menu,name:project_communications_meetings.menu_project_meeting_categories_act
 #: view:project.project:0
